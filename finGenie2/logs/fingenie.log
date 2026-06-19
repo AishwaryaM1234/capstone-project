@@ -1,88 +1,57 @@
-2026-06-18T00:27:41.844+05:30  INFO 31696 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2026-06-18T00:27:42.010+05:30  INFO 31696 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-06-18T00:27:42.036+05:30  INFO 31696 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-06-18T00:27:42.043+05:30  INFO 31696 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-06-18T08:48:01.583+05:30  INFO 20324 --- [main] c.wipro.finGenie.FinGenie2Application    : Starting FinGenie2Application using Java 21.0.7 with PID 20324 (C:\Users\AI20696635\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\finGenie2\target\classes started by AI20696635 in C:\Users\AI20696635\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\finGenie2)
-2026-06-18T08:48:01.587+05:30  INFO 20324 --- [main] c.wipro.finGenie.FinGenie2Application    : No active profile set, falling back to 1 default profile: "default"
-2026-06-18T08:48:02.954+05:30  INFO 20324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-06-18T08:48:03.086+05:30  INFO 20324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119 ms. Found 9 JPA repository interfaces.
-2026-06-18T08:48:03.701+05:30  INFO 20324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-18T08:48:03.721+05:30  INFO 20324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-18T08:48:03.722+05:30  INFO 20324 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
-2026-06-18T08:48:03.814+05:30  INFO 20324 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-18T08:48:03.815+05:30  INFO 20324 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2150 ms
-2026-06-18T08:48:03.992+05:30  INFO 20324 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-06-18T08:48:04.111+05:30  INFO 20324 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2026-06-18T08:48:04.187+05:30  INFO 20324 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-06-18T08:48:04.683+05:30  INFO 20324 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-06-18T08:48:04.738+05:30  INFO 20324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-06-18T08:48:05.092+05:30  INFO 20324 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b974137
-2026-06-18T08:48:05.094+05:30  INFO 20324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-06-18T08:48:06.758+05:30  INFO 20324 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-06-18T08:48:06.995+05:30  INFO 20324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-06-18T08:48:08.046+05:30  WARN 20324 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-06-18T08:48:08.147+05:30  INFO 20324 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2026-06-18T08:48:08.994+05:30  INFO 20324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-18T08:48:09.000+05:30  INFO 20324 --- [main] c.wipro.finGenie.FinGenie2Application    : Started FinGenie2Application in 7.977 seconds (process running for 8.741)
-2026-06-18T08:49:09.581+05:30  INFO 20324 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-18T08:49:09.582+05:30  INFO 20324 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-18T08:49:09.583+05:30  INFO 20324 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-06-18T18:28:20.461+05:30  INFO 20324 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2026-06-18T18:28:20.565+05:30  INFO 20324 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-06-18T18:28:20.587+05:30  INFO 20324 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-06-18T18:28:20.593+05:30  INFO 20324 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-06-18T18:28:39.313+05:30  INFO 21552 --- [main] c.wipro.finGenie.FinGenie2Application    : Starting FinGenie2Application using Java 21.0.7 with PID 21552 (C:\Users\AI20696635\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\finGenie2\target\classes started by AI20696635 in C:\Users\AI20696635\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\finGenie2)
-2026-06-18T18:28:39.316+05:30  INFO 21552 --- [main] c.wipro.finGenie.FinGenie2Application    : No active profile set, falling back to 1 default profile: "default"
-2026-06-18T18:28:40.440+05:30  INFO 21552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-06-18T18:28:40.573+05:30  INFO 21552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120 ms. Found 9 JPA repository interfaces.
-2026-06-18T18:28:41.201+05:30  INFO 21552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-18T18:28:41.220+05:30  INFO 21552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-18T18:28:41.220+05:30  INFO 21552 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
-2026-06-18T18:28:41.294+05:30  INFO 21552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-18T18:28:41.294+05:30  INFO 21552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1913 ms
-2026-06-18T18:28:41.465+05:30  INFO 21552 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-06-18T18:28:41.578+05:30  INFO 21552 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2026-06-18T18:28:41.638+05:30  INFO 21552 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-06-18T18:28:42.150+05:30  INFO 21552 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-06-18T18:28:42.203+05:30  INFO 21552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-06-18T18:28:42.521+05:30  INFO 21552 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18e8eb59
-2026-06-18T18:28:42.524+05:30  INFO 21552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-06-18T18:28:44.112+05:30  INFO 21552 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-06-18T18:28:44.259+05:30  INFO 21552 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-06-18T18:28:44.895+05:30  WARN 21552 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-06-18T18:28:44.955+05:30  INFO 21552 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2026-06-18T18:28:45.644+05:30  INFO 21552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-18T18:28:45.651+05:30  INFO 21552 --- [main] c.wipro.finGenie.FinGenie2Application    : Started FinGenie2Application in 6.847 seconds (process running for 7.555)
-2026-06-18T18:29:13.417+05:30  INFO 21552 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2026-06-18T18:29:13.431+05:30  INFO 21552 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-06-18T18:29:13.434+05:30  INFO 21552 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-06-18T18:29:13.443+05:30  INFO 21552 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-06-18T18:31:53.854+05:30  INFO 3104 --- [main] c.wipro.finGenie.FinGenie2Application    : Starting FinGenie2Application using Java 21.0.7 with PID 3104 (C:\Users\AI20696635\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\finGenie2\target\classes started by AI20696635 in C:\Users\AI20696635\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\finGenie2)
-2026-06-18T18:31:53.857+05:30  INFO 3104 --- [main] c.wipro.finGenie.FinGenie2Application    : No active profile set, falling back to 1 default profile: "default"
-2026-06-18T18:31:54.913+05:30  INFO 3104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-06-18T18:31:55.032+05:30  INFO 3104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 9 JPA repository interfaces.
-2026-06-18T18:31:55.574+05:30  INFO 3104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-18T18:31:55.594+05:30  INFO 3104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-18T18:31:55.594+05:30  INFO 3104 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
-2026-06-18T18:31:55.664+05:30  INFO 3104 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-18T18:31:55.665+05:30  INFO 3104 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1741 ms
-2026-06-18T18:31:55.836+05:30  INFO 3104 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-06-18T18:31:55.925+05:30  INFO 3104 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2026-06-18T18:31:55.975+05:30  INFO 3104 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-06-18T18:31:56.415+05:30  INFO 3104 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-06-18T18:31:56.461+05:30  INFO 3104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-06-18T18:31:56.758+05:30  INFO 3104 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76fc5687
-2026-06-18T18:31:56.761+05:30  INFO 3104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-06-18T18:31:58.160+05:30  INFO 3104 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-06-18T18:31:58.278+05:30  INFO 3104 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-06-18T18:31:58.844+05:30  WARN 3104 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-06-18T18:31:58.900+05:30  INFO 3104 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2026-06-18T18:31:59.473+05:30  INFO 3104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-18T18:31:59.478+05:30  INFO 3104 --- [main] c.wipro.finGenie.FinGenie2Application    : Started FinGenie2Application in 6.128 seconds (process running for 6.847)
-2026-06-18T18:32:16.620+05:30  INFO 3104 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-18T18:32:16.621+05:30  INFO 3104 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-18T18:32:16.622+05:30  INFO 3104 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-06-18T18:35:54.837+05:30  INFO 3104 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2026-06-18T18:35:54.847+05:30  INFO 3104 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-06-18T18:35:54.849+05:30  INFO 3104 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-06-18T18:35:54.857+05:30  INFO 3104 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-19T16:09:35.398+05:30  INFO 15524 --- [main] c.w.finGenie.FinGenie2ApplicationTests   : Starting FinGenie2ApplicationTests using Java 21.0.7 with PID 15524 (started by AI20696635 in C:\Users\AI20696635\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\finGenie2)
+2026-06-19T16:09:35.425+05:30  INFO 15524 --- [main] c.w.finGenie.FinGenie2ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2026-06-19T16:09:36.860+05:30  INFO 15524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-19T16:09:37.025+05:30  INFO 15524 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 149 ms. Found 9 JPA repository interfaces.
+2026-06-19T16:09:38.070+05:30  INFO 15524 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-19T16:09:38.266+05:30  INFO 15524 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-19T16:09:38.376+05:30  INFO 15524 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-19T16:09:39.019+05:30  INFO 15524 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-19T16:09:39.079+05:30  INFO 15524 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-19T16:09:39.745+05:30  INFO 15524 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e52d2f2
+2026-06-19T16:09:39.750+05:30  INFO 15524 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-19T16:09:41.462+05:30  INFO 15524 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-19T16:09:41.672+05:30  INFO 15524 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-19T16:09:42.676+05:30  WARN 15524 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-19T16:09:42.777+05:30  INFO 15524 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-19T16:09:44.135+05:30  INFO 15524 --- [main] c.w.finGenie.FinGenie2ApplicationTests   : Started FinGenie2ApplicationTests in 9.116 seconds (process running for 20.005)
+2026-06-19T16:09:46.316+05:30  INFO 15524 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-19T16:09:46.320+05:30  INFO 15524 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-19T16:09:46.330+05:30  INFO 15524 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-19T16:10:17.878+05:30  INFO 29508 --- [main] c.w.finGenie.FinGenie2ApplicationTests   : Starting FinGenie2ApplicationTests using Java 21.0.7 with PID 29508 (started by AI20696635 in C:\Users\AI20696635\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\finGenie2)
+2026-06-19T16:10:17.881+05:30  INFO 29508 --- [main] c.w.finGenie.FinGenie2ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2026-06-19T16:10:19.558+05:30  INFO 29508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-19T16:10:19.718+05:30  INFO 29508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133 ms. Found 9 JPA repository interfaces.
+2026-06-19T16:10:20.969+05:30  INFO 29508 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-19T16:10:21.206+05:30  INFO 29508 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-19T16:10:21.347+05:30  INFO 29508 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-19T16:10:22.355+05:30  INFO 29508 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-19T16:10:22.439+05:30  INFO 29508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-19T16:10:23.024+05:30  INFO 29508 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27ec0d06
+2026-06-19T16:10:23.033+05:30  INFO 29508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-19T16:10:25.624+05:30  INFO 29508 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-19T16:10:25.830+05:30  INFO 29508 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-19T16:10:27.209+05:30  WARN 29508 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-19T16:10:27.374+05:30  INFO 29508 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-19T16:10:29.524+05:30  INFO 29508 --- [main] c.w.finGenie.FinGenie2ApplicationTests   : Started FinGenie2ApplicationTests in 12.098 seconds (process running for 16.872)
+2026-06-19T16:10:31.430+05:30  INFO 29508 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-19T16:10:31.432+05:30  INFO 29508 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-19T16:10:31.445+05:30  INFO 29508 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-19T16:12:17.928+05:30  INFO 30396 --- [main] c.w.finGenie.FinGenie2ApplicationTests   : Starting FinGenie2ApplicationTests using Java 21.0.7 with PID 30396 (started by AI20696635 in C:\Users\AI20696635\Documents\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\finGenie2)
+2026-06-19T16:12:17.932+05:30  INFO 30396 --- [main] c.w.finGenie.FinGenie2ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2026-06-19T16:12:19.263+05:30  INFO 30396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-19T16:12:19.406+05:30  INFO 30396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 9 JPA repository interfaces.
+2026-06-19T16:12:20.256+05:30  INFO 30396 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-19T16:12:20.427+05:30  INFO 30396 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-19T16:12:20.509+05:30  INFO 30396 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-19T16:12:21.245+05:30  INFO 30396 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-19T16:12:21.314+05:30  INFO 30396 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-19T16:12:21.789+05:30  INFO 30396 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cc4d454
+2026-06-19T16:12:21.797+05:30  INFO 30396 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-19T16:12:23.820+05:30  INFO 30396 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-19T16:12:23.963+05:30  INFO 30396 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-19T16:12:25.228+05:30  WARN 30396 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-19T16:12:25.310+05:30  INFO 30396 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-19T16:12:26.696+05:30  INFO 30396 --- [main] c.w.finGenie.FinGenie2ApplicationTests   : Started FinGenie2ApplicationTests in 9.192 seconds (process running for 10.592)
+2026-06-19T16:12:27.778+05:30  INFO 30396 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-19T16:12:27.783+05:30  INFO 30396 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-19T16:12:27.794+05:30  INFO 30396 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
